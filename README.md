@@ -1,5 +1,9 @@
 # mvnch
 
+[![npm](https://img.shields.io/npm/v/mvnch.svg)](https://www.npmjs.com/package/mvnch)
+[![bitHound Code](https://www.bithound.io/github/YagoGG/mvnch/badges/code.svg)](https://www.bithound.io/github/YagoGG/mvnch)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/YagoGG/mvnch/master/LICENSE)
+
 A Node.js command line tool that allows you to easily take screenshots of
 websites.
 

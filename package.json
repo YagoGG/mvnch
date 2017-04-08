@@ -26,7 +26,7 @@
   "dependencies": {
     "chalk": "1.1.3",
     "commander": "2.9.0",
-    "phantom": "2.1.21",
+    "phantom": "4.0.2",
     "url-validator": "2.0.3"
   }
 }

@@ -1,6 +1,6 @@
 {
   "name": "mvnch",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "CLI tool for taking screenshots of websites.",
   "main": "mvnch.js",
   "scripts": {

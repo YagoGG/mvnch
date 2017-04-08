@@ -15,14 +15,14 @@ mvnch is available as a npm package, so you can install it by running:
 
     mvnch [options] <url>
 
-      Options:
+    Options:
 
         -h, --help           output usage information
         -V, --version        output the version number
         -o, --output <file>  file to save the screenshot. Default: output.png
-        -w, --width <px>     viewport width of the emulated browser
-        -h, --height <px>    viewport height of the emulated browser
-        -s, --sleep <ms>     milliseconds to wait before taking the screenshot
+        -w, --width <px>     width of the emulated browser. Default: 1920
+        -h, --height <px>    height of the emulated browser. Default: 1080
+        -s, --sleep <ms>     time to wait before taking the shot. Default: 0
         -d, --disable-js     disable JavaScript when loading the page
 
     The result will have the same format as the extension of the file specified

@@ -13,10 +13,12 @@ program
     .usage('[options] <url>')
     .option('-o, --output <file>', 'file to save the screenshot. ' +
                                    'Default: output.png')
-    .option('-w, --width <px>', 'viewport width of the emulated browser')
-    .option('-h, --height <px>', 'viewport height of the emulated browser')
-    .option('-s, --sleep <ms>', 'milliseconds to wait before taking the ' +
-                                'screenshot')
+    .option('-w, --width <px>', 'width of the emulated browser. ' +
+                                'Default: 1920')
+    .option('-h, --height <px>', 'height of the emulated browser. ' +
+                                 'Default: 1080')
+    .option('-s, --sleep <ms>', 'time to wait before taking the ' +
+                                'shot. Default: 0')
     .option('-d, --disable-js', 'disable JavaScript when loading the page');
 
 // Extend the help text

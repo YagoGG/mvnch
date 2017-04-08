@@ -1,0 +1,32 @@
+{
+  "name": "mvnch",
+  "version": "0.0.1",
+  "description": "CLI tool for taking screenshots of websites.",
+  "main": "mvnch.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "mvnch": "./mvnch.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YagoGG/mvnch.git"
+  },
+  "keywords": [
+    "screenshot",
+    "cli"
+  ],
+  "author": "Yago González",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YagoGG/mvnch/issues"
+  },
+  "homepage": "https://github.com/YagoGG/mvnch#readme",
+  "dependencies": {
+    "chalk": "1.1.3",
+    "commander": "2.9.0",
+    "phantom": "2.1.21",
+    "url-validator": "2.0.3"
+  }
+}
